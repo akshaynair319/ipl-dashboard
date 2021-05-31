@@ -19,7 +19,12 @@ function HomePage() {
       <div className="HomePageTitle">
         <h1>
           <li></li> <li></li>
-          <span className="Small-text">Welcome to Your<span className="Big-text">IPL Dashboard</span></span>
+          <span className="Small-text">
+            Welcome to Your{" "}
+            <span className="Big-text" style={{ margin: "0" }}>
+              IPL Dashboard
+            </span>
+          </span>
           <li></li> <li></li>
         </h1>
       </div>

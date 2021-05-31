@@ -32,9 +32,9 @@
   border-radius: 50%;
   animation: bounce-up 1.3s ease-in infinite;
 }
-.HomePageTitle h1 span {
+/* .HomePageTitle h1 span {
   margin: 0 1.5rem;
-}
+} */
 @keyframes bounce-up {
   0% {
     transform: translateY(0);
@@ -70,13 +70,16 @@
   background-color: #e74c3c;
 }
 
-.Small-text{
-  color:#5F4B8BFF;
-   /* #ffe042; */
+.Small-text {
+  color: #5f4b8bff;
+  /* #ffe042; */
   /* #e71989 */
 }
 
-.Big-text
-{
-  color:#E69A8DFF;
+.HomePageTitle h1 span {
+  margin: 0 1rem;
+}
+.Big-text {
+  color: #e69a8dff;
+  /* margin-right: 0; */
 }
