@@ -1,0 +1,15 @@
+export const TeamNames = [
+  "Chennai Super Kings",
+  "Delhi Capitals",
+  "Kings XI Punjab",
+  "Kolkata Knight Riders",
+  "Mumbai Indians",
+  "Rajasthan Royals",
+  "Royal Challengers Bangalore",
+  "Sunrisers Hyderabad",
+  "Deccan Chargers",
+  "Kochi Tuskers Kerala",
+  "Pune Warriors",
+  "Gujarat Lions",
+  "Rising Pune Supergiants",
+];

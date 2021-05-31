@@ -1,0 +1,11 @@
+.YearSelector {
+  font-size: 1rem;
+}
+
+.YearSelector a {
+  margin: 0 5px;
+}
+
+.current-year {
+  color: #fff;
+}

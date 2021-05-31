@@ -1,0 +1,22 @@
+.TeamTile {
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem;
+  background: url(./../../Images/ball.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+a {
+  /* color: #fff; */
+  text-decoration: none;
+}
+
+.TeamTile:hover {
+  cursor: pointer;
+  z-index: 2;
+  transform: scale(1.1);
+}

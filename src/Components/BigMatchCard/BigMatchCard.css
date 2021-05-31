@@ -1,0 +1,32 @@
+.BigMatchCard {
+  /* background-color: #69f562; */
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 4fr;
+  border-radius: 2rem;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.matchTeams {
+  grid-column: span 2;
+  height: 10vh;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.grid1,
+.grid2 {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+  gap: 1rem;
+}
+
+.location,
+.umpires,
+.toss_result,
+.match_result,
+.player_of_the_match {
+  font-size: 1.4rem;
+}

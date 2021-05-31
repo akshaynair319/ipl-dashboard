@@ -1,0 +1,13 @@
+.Matches {
+  /* margin-top: 2rem; */
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  /* height: 100%; */
+  padding-top: 1rem;
+  background-color: black;
+}

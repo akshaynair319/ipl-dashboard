@@ -1,0 +1,285 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+body > * {
+  flex-shrink: 0;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+h4 {
+  font-weight: 400;
+}
+/* adding colors to teams */
+/* background-image: linear-gradient(to top left, #333 0%, rgb(5, 5, 5) 100%); */
+.ChennaiSuperKings {
+  /* background-color: #ebbf13; */
+  background-image: linear-gradient(to top left, #ce8003 0%, #f1c40f 100%);
+}
+.ChennaiSuperKingsBackground {
+  background-image: linear-gradient(rgb(241, 196, 15, 1), rgb(206, 128, 3, 0.7)),
+    url(./Images/ChennaiSuperKings.svg);
+  background-size: cover;
+  background-position: center;
+  height: inherit;
+  position: relative;
+}
+.MumbaiIndians {
+  /* background-color: #136deb; */
+  background-image: linear-gradient(to top left, #0b354e 0%, #3498db 100%);
+}
+.MumbaiIndiansBackground {
+  background-image: linear-gradient(rgb(11, 53, 78, 1), rgb(52, 152, 219, 0.7)),
+    url(./Images/MumbaiIndians.svg);
+  background-size: cover;
+  background-position: center;
+  height: inherit;
+  position: relative;
+}
+.RoyalChallengersBangalore {
+  /* background-color: #ed2809; */
+  background-image: linear-gradient(
+    to top left,
+    rgb(192, 57, 43) 0%,
+    rgb(237, 40, 9) 100%
+  );
+}
+.RoyalChallengersBangaloreBackground {
+  background-image: linear-gradient(rgb(192, 57, 43, 1), rgb(237, 40, 9, 0.7)),
+    url(./Images/RoyalChallengersBangalore.svg);
+  background-size: cover;
+  background-position: center;
+  height: inherit;
+  position: relative;
+}
+.KolkataKnightRiders {
+  /* background-color: #791a99; */
+  background-image: linear-gradient(
+    to top left,
+    rgba(79, 36, 97, 0.6) 0%,
+    rgb(180, 58, 221) 100%
+  );
+}
+.KolkataKnightRidersBackground {
+  background-image: linear-gradient(rgb(79, 36, 97, 1), rgb(180, 58, 221, 0.7)),
+    url(./Images/KolkataKnightRiders.svg);
+  background-size: cover;
+  background-position: center;
+  height: inherit;
+  position: relative;
+}
+.RajasthanRoyals {
+  /* background-color: #e632a1; */
+  background-image: linear-gradient(
+    to top left,
+    rgb(116, 8, 74) 0%,
+    rgb(230, 50, 161) 100%
+  );
+}
+.RajasthanRoyalsBackground {
+  background-image: linear-gradient(rgb(116, 8, 74, 1), rgb(230, 50, 161, 0.7)),
+    url(./Images/RajasthanRoyals.svg);
+  background-size: cover;
+  background-position: center;
+  height: inherit;
+  position: relative;
+}
+.DelhiDaredevils,
+.DelhiCapitals {
+  /* background-color: #493ca0; */
+  background-image: linear-gradient(
+    to top left,
+    rgb(21, 9, 100) 0%,
+    rgb(80, 66, 168) 100%
+  );
+}
+.DelhiDaredevilsBackground {
+  background-image: linear-gradient(rgb(21, 9, 100, 1), rgb(80, 66, 168, 0.7)),
+    url(./Images/DelhiDaredevils.svg);
+  background-size: cover;
+  background-position: center;
+  height: inherit;
+  position: relative;
+}
+.DelhiCapitalsBackground {
+  background-image: linear-gradient(rgb(21, 9, 100, 1), rgb(80, 66, 168, 0.7)),
+    url(./Images/DelhiCapitals.svg);
+  background-size: cover;
+  background-position: center;
+  height: inherit;
+  position: relative;
+}
+/* 221575 */
+.KingsXIPunjab {
+  /* background-color: #fc2421; */
+  background-image: linear-gradient(
+    to top left,
+    rgb(173, 24, 21) 0%,
+    rgb(252, 36, 33) 100%
+  );
+}
+.KingsXIPunjabBackground {
+  background-image: linear-gradient(rgb(173, 24, 21, 1), rgb(252, 36, 33, 0.7)),
+    url(./Images/KingsXIPunjab.svg);
+  background-size: cover;
+  background-position: center;
+  height: inherit;
+  position: relative;
+}
+.DeccanChargers {
+  /* background-color: #105f94; */
+  background-image: linear-gradient(
+    to top left,
+    rgb(9, 67, 105) 0%,
+    rgb(23, 110, 168) 100%
+  );
+}
+.DeccanChargersBackground {
+  background-image: linear-gradient(rgb(9, 67, 105, 1), rgb(23, 110, 168, 0.7)),
+    url(./Images/DeccanChargers.svg);
+  background-size: cover;
+  background-position: center;
+  height: inherit;
+  position: relative;
+}
+.KochiTuskersKerala {
+  background-color: #f7720c;
+  background-image: linear-gradient(
+    to top left,
+    rgb(163, 75, 7) 0%,
+    rgb(247, 114, 12) 100%
+  );
+}
+.KochiTuskersKeralaBackground {
+  background-image: linear-gradient(rgb(163, 75, 7, 1), rgb(247, 114, 12, 0.7)),
+    url(./Images/KochiTuskersKerala.png);
+  background-size: cover;
+  background-position: center;
+  height: inherit;
+  position: relative;
+}
+.PuneWarriors {
+  /* background-color: #333; */
+  background-image: linear-gradient(
+    to top left,
+    rgb(51, 51, 51) 0%,
+    rgb(85, 85, 85) 100%
+  );
+}
+.PuneWarriorsBackground {
+  background-image: linear-gradient(rgb(51, 51, 51, 1), rgb(85, 85, 85, 0.7)),
+    url(./Images/PuneWarriors.png);
+  background-size: cover;
+  background-position: center;
+  height: inherit;
+  position: relative;
+}
+.SunrisersHyderabad {
+  /* background-color: #ff7300; */
+  background-image: linear-gradient(
+    to top left,
+    rgb(192, 89, 4) 0%,
+    rgb(255, 115, 0) 100%
+  );
+}
+.SunrisersHyderabadBackground {
+  background-image: linear-gradient(rgb(192, 89, 4, 1), rgb(255, 115, 0, 0.7)),
+    url(./Images/SunrisersHyderabad.svg);
+  background-size: cover;
+  background-position: center;
+  height: inherit;
+  position: relative;
+}
+.GujaratLions {
+  /* background-color: #f06407; */
+  background-image: linear-gradient(
+    to top left,
+    rgb(143, 67, 5) 0%,
+    rgb(240, 100, 7) 100%
+  );
+}
+.GujaratLionsBackground {
+  background-image: linear-gradient(rgb(143, 67, 5, 1), rgb(240, 100, 7, 0.7)),
+    url(./Images/GujaratLions.png);
+  background-size: cover;
+  background-position: center;
+  height: inherit;
+  position: relative;
+}
+.RisingPuneSupergiants {
+  /* background-color: #b505a3; */
+  background-image: linear-gradient(
+    to top left,
+    rgb(112, 6, 102) 0%,
+    rgb(181, 5, 163) 100%
+  );
+}
+.RisingPuneSupergiantsBackground {
+  background-image: linear-gradient(rgb(112, 6, 102, 1), rgb(181, 5, 163, 0.7)),
+    url(./Images/RisingPuneSupergiants.jpg);
+  background-size: cover;
+  background-position: center;
+  height: inherit;
+  position: relative;
+}
+.ChennaiSuperKings-color {
+  color: #ebbf13;
+}
+.MumbaiIndians-color {
+  color: #136deb;
+}
+.RoyalChallengersBangalore-color {
+  color: #ed2809;
+}
+.KolkataKnightRiders-color {
+  color: #791a99;
+}
+.RajasthanRoyals-color {
+  color: #e632a1;
+}
+.DelhiDaredevils-color,
+.DelhiCapitals-color {
+  color: #1d0c8a;
+}
+.KingsXIPunjab-color {
+  color: #fc2421;
+}
+.DeccanChargers-color {
+  color: #105f94;
+}
+.KochiTuskersKerala-color {
+  color: #f7720c;
+}
+.PuneWarriors-color {
+  color: #555;
+}
+.SunrisersHyderabad-color {
+  color: #ff7300;
+}
+.GujaratLions-color {
+  color: #f06407;
+}
+.RisingPuneSupergiants-color {
+  color: #b505a3;
+}
