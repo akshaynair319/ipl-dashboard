@@ -12,8 +12,12 @@ const AppProvider = ({ children }) => {
   };
   const getSomeMatches = () => {
     //call to api
+    console.log(window.location.pathname);
     axios
-      .get("")
+      .get(
+        "http://ipldashboardbackendservices-env.eba-mjduvjz4.ap-south-1.elasticbeanstalk.com" +
+          window.location.pathname
+      )
       .then((res) => {
         // console
         setSomeMatches(res.data.latestmatches);
@@ -27,7 +31,10 @@ const AppProvider = ({ children }) => {
     //call to api
 
     axios
-      .get("")
+      .get(
+        "http://ipldashboardbackendservices-env.eba-mjduvjz4.ap-south-1.elasticbeanstalk.com" +
+          window.location.pathname
+      )
       .then((res) => {
         setAllMatches(res.data);
         setLoading(false);
